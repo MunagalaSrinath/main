@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header nav h1 {
+  font-size: 5vmin;
+  color: green;
+}
+.header nav p {
+  font-size: 2vmin;
+  color: lime;
+}
+.header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px;
+}
+.header .links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+.header .links ul li::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: aqua;
+  display: block;
+  transition: 1.4s;
+}
+.header .links ul li:hover::after {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  .header .links ul li {
+    position: relative;
+    display: block;
+    background-color: red;
+  }
+}
+.box1 h1 {
+  font-size: 3vmin;
+  text-align: center;
+}
+.box1 p {
+  font-size: 2vmin;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.boxes {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.box1 {
+  border: 1px solid red;
+  flex-basis: 30%;
+  padding: 10px 0px;
+  transition: 0.5;
+}
+.box1:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .boxes {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.box1 a {
+  text-decoration: none;
+  font-size: 1.8vmin;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+.overlay p {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 10px;
+}
+.overlay h1 {
+  color: white;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  margin-top: -60px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+}
+.fa-brands {
+  color: red;
+  position: fixed;
+  right: 0;
+  width: 50px;
+  height: 50px;
+}
+.h12 {
+  padding-top: 30px;
+}
+.row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.again {
+  display: flex;
+}
+.maio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 30px;
+}
+.col-content {
+  justify-content: space-between;
+}
+.again {
+  font-size: 2vmin;
+  text-align: center;
+  justify-content: space-around;
+}
+.h12 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.hope {
+  width: 60%;
+}
+.hope p {
+  text-align: left;
+}
+.maio h1 {
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.last2 img {
+  width: 200px;
+  height: 200px;
+}
+
+.last1 {
+  display: flex;
+  padding: 30px;
+}
+.paras {
+  text-align: center;
+  text-decoration: none;
+}
+.last3 {
+  background-color: azure;
+}
+.mains {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 30px;
+}
+.last3 p {
+  padding-left: 15px;
+}
+.pop {
+  text-decoration: none;
+}
+.pop:hover {
+  color: red;
+}
+.last1:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.last {
+  background-color: #ffc9c9;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.last h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.last p {
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .mains {
+    display: flex;
+    flex-direction: column;
+  }
+  .last1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.foot1 {
+  width: 35%;
+  margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.foot1 h1 {
+  padding: 10px;
+}
+.foot1 p {
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+.linkk h1 {
+  padding: 10px;
+}
+.linkk ul li {
+  padding-bottom: 10px;
+}
+.lost h1 {
+  padding: 10px;
+}
+.lost a {
+  text-decoration: none;
+}
+nav img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.jo {
+  display: flex;
+}
+.jop {
+  padding-top: 30px;
+}
