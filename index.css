@@ -14,9 +14,11 @@
 }
 .header {
   display: flex;
+  align-items: center;
   position: relative;
   justify-content: space-between;
   padding: 30px;
+  z-index: 1;
 }
 .header .links ul li {
   list-style: none;
